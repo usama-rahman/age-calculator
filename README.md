@@ -1,4 +1,35 @@
+# Age Calculator App
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Age Calculator Component
+
+The main feature of this app is the Age Calculator component, which allows users to calculate their exact age in years, months, and days based on their birthdate.
+
+### Features
+
+- Dual input methods: Calendar picker and manual date entry
+- Precise age calculation in years, months, and days
+- Decade navigation in the calendar view
+- Responsive design for both desktop and mobile devices
+
+### How to Use
+
+1. Choose between Calendar or Manual Input.
+2. For calendar input:
+   - Click the date field to open the calendar.
+   - Use decade navigation buttons to quickly move through time periods.
+   - Select your birthdate.
+3. For manual input:
+   - Enter your birthdate in YYYY-MM-DD format.
+4. Click "Calculate Age" to see your age in years, months, and days.
+
+### Technical Details
+
+- Built with React and TypeScript
+- Uses `date-fns` for accurate date calculations
+- Implements Shadcn UI components for the interface
+- Utilizes React hooks for state management
 
 ## Getting Started
 
